@@ -1,0 +1,59 @@
+body{
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.productContainer{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+
+.productContainer > .link {
+  width: 300px;
+  box-shadow: 0 0 10px grey;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+
+
+.productContainer> .link:hover{
+  background-color: lightgray;
+}
+
+.Nav{
+  background-color:#505254;
+  height: 50px;
+  color: white;
+  
+}
+.pehlalink{
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  width: 50%;
+}
+
+.pehlalink:hover{
+color: teal;
+text-decoration: none;
+}
+
+
+
+.link{
+  box-shadow: 0 0 10px grey;
+  margin-top: 40px;
+  
+}
+
+.desc{
+margin-top: 50px;
+text-align: center;
+font-size: 16px !important;
+}
+
